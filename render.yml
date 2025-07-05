@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: tls-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python tls_bot.py"
+    autoDeploy: false
